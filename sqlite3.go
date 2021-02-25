@@ -9,6 +9,7 @@
 package sqlite3
 
 /*
+#cgo CFLAGS: -DSQLITE_ENABLE_JSON1
 #cgo CFLAGS: -std=gnu99
 #cgo CFLAGS: -DSQLITE_ENABLE_RTREE
 #cgo CFLAGS: -DSQLITE_THREADSAFE=1
